@@ -1,0 +1,22 @@
+
+env:
+  TERM: xterm-256color
+
+import:
+  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+
+window:
+  padding:
+    x: 5
+    y: 5
+  dynamic_padding: true
+  opacity: 0.97
+  decorations: none
+  dynamic_title: true
+  dimensions:
+   columns: 240
+   lines: 80
+  startup_mode: Maximized
+
+font:
+  size: 14.0
